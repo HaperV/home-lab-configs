@@ -1,5 +1,30 @@
-*.tar.gz
-*.log
-.env
+# Системные файлы
+.bash_history
+.bash_logout
+.bashrc
+.profile
+.cache/
+
+# SSH ключи (НИКОГДА не коммитить!)
+.ssh/
+*.pub
 id_rsa
 id_ed25519
+id_ed25519.pub
+
+# Временные файлы
+*.swp
+*.swo
+*~
+
+# Архивы бэкапов
+*.tar.gz
+*.zip
+
+# Логи
+*.log
+
+# Файлы с паролями и секретами
+.env
+*.key
+*.pem
